@@ -3,10 +3,9 @@
 #include <stdio.h>
 
 /**
- * Entry point - main
- * code prints out a random number
+ * main - Print out random number
  * number may be 0, +ve or -ve
- * Returns 0 - Success
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -14,6 +13,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+
 	if (n > 0)
 	{
 		printf("%d is positive\n", n);
