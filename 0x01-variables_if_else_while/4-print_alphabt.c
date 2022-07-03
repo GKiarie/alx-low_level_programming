@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+/**
+ * main - print alphabet in lowercase
+ * except letters q and e
+ * putchar only used twice
+ * Return: Always 0 (Sucess)
+ */
+int main(void)
+{
+	char c;
+
+	for (c = 'a'; c <= 'z'; c++)
+	{
+		if (c != 'e' && c != 'q')
+		{
+			putchar(c);
+		}
+	}
+
+	putchar('\n');
+
+	return (0);
+}
