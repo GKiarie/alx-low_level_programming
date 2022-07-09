@@ -28,3 +28,6 @@ function that prints every minute of the day of Jack Bauer, starting from 00:00 
 
 ##Learn your times table
 function that prints the 9 times table starting with 0
+
+##10. a + b
+function that adds two integers and returns the result.
