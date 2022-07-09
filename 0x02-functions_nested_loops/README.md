@@ -10,3 +10,6 @@ Function that prints 10 times the alphabet, in lowercase, followed by a new line
 
 ##3. islower
 function that checks for lowercase character.
+
+##4. isalpha
+function that checks for alphabetic character
