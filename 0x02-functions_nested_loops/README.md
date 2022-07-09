@@ -25,3 +25,6 @@ function that prints last digit of a number
 
 ##8. I'm federal agent Jack Bauer, and today is the longest day of my life
 function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59
+
+##Learn your times table
+function that prints the 9 times table starting with 0
