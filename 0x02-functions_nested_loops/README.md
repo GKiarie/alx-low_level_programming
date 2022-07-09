@@ -13,3 +13,6 @@ function that checks for lowercase character.
 
 ##4. isalpha
 function that checks for alphabetic character
+
+##5. Sign
+function that prints the sign of a number
