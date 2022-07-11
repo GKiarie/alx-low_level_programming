@@ -4,3 +4,6 @@ function that takes a pointer to an int as parameter and updates the value it po
 
 ##1. Don't swap horses in crossing a team
 Function that swaps the values of two integers.
+
+##2. This report, by its very length, defends itself against the risk of being read
+function that returns the length of a string.
