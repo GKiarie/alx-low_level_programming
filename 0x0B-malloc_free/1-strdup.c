@@ -11,9 +11,6 @@ char *_strdup(char *str)
 {
 	char *ptr;
 	int count;
-
-	/* length of string */
-
 	int length = 0;
 
 	/* return NULL if str is NULL) */
@@ -21,36 +18,27 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-
 	while (str[length] != '\0')
 	{
 		length++;
 	}
-
 	/* size of bytes to be allocated */
-
 	ptr = malloc((length * sizeof(char)) + 1);
-
 	/* returns NULL if ptr == NULL */
 	if (str == NULL)
 	{
 		return (NULL);
 	}
-
 	if (ptr == NULL)
 	{
 		return (NULL);
 	}
-
 	/* copy string to new mem location */
-
 	for (count = 0; str[count] != '\0'; count++)
 	{
 		ptr[count] = str[count];
 	}
-
 	ptr[count] = '\0';
-
 
 	return (ptr);
 }
