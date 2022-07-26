@@ -16,6 +16,11 @@ char *create_array(unsigned int size, char c)
 	/* allocate space for array members */
 	ptr = malloc(size * sizeof(char));
 
+	if (size == 0)
+	{
+		return (NULL);
+	}
+
 	/* assign character c in all mem slots allocated */
 	for (counter = 0; counter < size; counter++)
 	{
