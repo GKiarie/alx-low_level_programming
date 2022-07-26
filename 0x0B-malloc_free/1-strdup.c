@@ -25,7 +25,11 @@ char *_strdup(char *str)
 
 	ptr = malloc((length * sizeof(char)) + 1);
 
-	/* returns NULL if str = NULL */
+	/* returns NULL if str == NULL or if ptr == NULL */
+	if (str == NULL)
+	{
+		return (NULL);
+	}
 
 	if (ptr == NULL)
 	{
