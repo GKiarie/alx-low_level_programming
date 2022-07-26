@@ -20,6 +20,10 @@ char *create_array(unsigned int size, char c)
 	{
 		return (NULL);
 	}
+	if (ptr == NULL)
+	{
+		return (NULL);
+	}
 
 	/* assign character c in all mem slots allocated */
 	for (counter = 0; counter < size; counter++)
