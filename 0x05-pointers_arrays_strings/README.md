@@ -21,3 +21,6 @@ function that prints every other character of a string, starting with the first 
 
 ##7. Winning is only half of it. Having fun is the other half
 function that prints half of a string, followed by a new line.
+
+##8. Arrays are not pointers
+function that prints n elements of an array of integers, followed by a new line.
