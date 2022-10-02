@@ -6,4 +6,5 @@ Array of strings, each string is one of the arguments passed to the program
 Program that prints its name foillowed by a new line.
 If you rename the program, it'll print new name without recompiling
 
-:wq
+##1. Silence is argument carried out by other means
+function that prints number of arguments passed to it
