@@ -11,3 +11,6 @@ function that prints number of arguments passed to it
 
 ##2. The best argument against democracy is a five-minute conversation with the average voter
 program that prints all arguments it receives.
+
+##3. Neither irony nor sarcasm is argument
+program that multiplies two numbers
