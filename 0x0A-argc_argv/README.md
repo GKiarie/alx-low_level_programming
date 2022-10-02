@@ -8,3 +8,6 @@ If you rename the program, it'll print new name without recompiling
 
 ##1. Silence is argument carried out by other means
 function that prints number of arguments passed to it
+
+##2. The best argument against democracy is a five-minute conversation with the average voter
+program that prints all arguments it receives.
