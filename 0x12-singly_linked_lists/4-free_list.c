@@ -3,25 +3,21 @@
 /**
   * free_list - function that frees a list_t
   * list
-  * @head - pointer to list to be freed
+  * @head - pointer to list first element
   * Return: nothing
   */
 
 void free_list(list_t *head)
 {
-	list_t *tmp;
+	list_t *current, *next;
 
-	if (head == NULL)
-		return;
+	current = head;
 
-	while (head->next != NULL)
+	while (current != NULL)
 	{
-		tmp = head->next;
-		free(head->str);
-		free(head);
-		head = tmp;
+		next = current->next;
+		free(current->str);
+		free(current);
+		current = next;
 	}
-
-	free(head->str);
-	free(head);
 }
