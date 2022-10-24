@@ -6,9 +6,9 @@
   * Return: size of string
   */
 
-int _strlen(const char *str)
+unsigned int _strlen(const char *str)
 {
-	int i = 0;
+	unsigned int i = 0;
 
 	while (str[i])
 	{
