@@ -2,19 +2,15 @@
 #define LISTS_H
 
 #include <stddef.h>
-/**
-  * Header file - contains prototypes
-  * for dir 0x13
-  */
 
 /**
-  * struct listint_s - singly linked list
-  * @n: integer
-  * @next: points to the next node
-  *
-  * Description: singly linked list node structure
-  *
-  */
+ * struct listint_s - singly linked list
+ * @n: integer
+ * @next: points to the next node
+ *
+ * Description: singly linked list node structure
+ *
+ */
 typedef struct listint_s
 {
 	int n;
