@@ -2,6 +2,7 @@
 #define MAIN_H
 
 #include <stdlib.h>
+#include <stdio.h>
 
 /**
   * Header - comtains prototypes for the entire directory
@@ -15,6 +16,7 @@ char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
 void print_chessboard(char (*a)[8]);
 int _putchar(char c);
-
+int square(int num);
+void print_diagsums(int *a, int size);
 
 #endif
