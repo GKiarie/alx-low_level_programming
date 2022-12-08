@@ -1,0 +1,13 @@
+#include "lists.h"
+
+/**
+ * insert_dnodeint_at_index - ftn that insets a new node
+ * at a given position
+ * @h: head of list
+ * @idx - index of list where node to be added
+ * @n: position
+ * Return: address of new node, NULL if failed
+ */
+dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
+{
+  
