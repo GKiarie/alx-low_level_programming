@@ -1,7 +1,6 @@
 #include "lists.h"
-
 /**
- * add_dnodeint - ftn that adds a new node at 
+ * add_dnodeint - ftn that adds a new node at
  * beginning of a list
  * @head: head of list
  * @n: node to add
