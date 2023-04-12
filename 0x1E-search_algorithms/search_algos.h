@@ -1,5 +1,5 @@
-#ifndef SEARCH_ALGOS_H
-#define SEARCH_ALGOS_H
+#ifndef _SEARCH_ALGOS_H_
+#define _SEARCH_ALGOS_H_
 
 /**
   * Header file - contain prototypes for 0x1E directory
