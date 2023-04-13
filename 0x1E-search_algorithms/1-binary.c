@@ -29,7 +29,7 @@ int binary_search(int *array, size_t size, int value)
 			{
 				printf("%i", array[i]);
 			}
-		else
+			else
 			{
 				printf("%i, ", array[i]);
 			}
